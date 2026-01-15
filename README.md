@@ -1,9 +1,8 @@
-# Spatial Hierarchical Meta-Learning for Single-Point Map Matching
+# [KDD'25] Spatial Hierarchical Meta-Learning for Single-Point Map Matching
+
+Sijie Ruan, Yiqing Zou, Qianyu Yang, Haoyu Han, Yeting Zhang, Ziqiang Yuan, Hanning Yuan\* and Shuliang Wang. 2025. Spatial Hierarchical Meta-Learning for Single-Point Map Matching. *In Proceedings of the 31st ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD'25).* (* Corresponding Author)
+
 ![Spatial Hierarchical Meta-Learning for Single-Point Map Matching](framework.png "Model Framework")
-
-## Introduction
-
-This code corresponds to the implementation of the paper "Spatial Hierarchical Meta-Learning for Single-Point Map Matching".
 
 
 ## Data Preparation
@@ -101,3 +100,15 @@ Then you will get:
     ```
     python3 train.py --input_cat_destination 'True' --region 'XIAN' --eta 0.00
     ```
+
+## Citation
+If you find this repository, e.g., the paper, code or the datasets, useful in your research, please cite the following paper:
+```
+@inproceedings{ruan2025spatial,
+  title={Spatial Hierarchical Meta-Learning for Single-Point Map Matching},
+  author={Ruan, Sijie and Zou, Yiqing and Yang, Qianyu and Han, Haoyu and Zhang, Yeting and Yuan, Ziqiang and Yuan, Hanning and Wang, Shuliang},
+  booktitle={Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2},
+  pages={2455--2465},
+  year={2025}
+}
+```
